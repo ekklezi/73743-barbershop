@@ -3,13 +3,15 @@
   <head>
     <meta charset="utf-8">
     <title>Набор для путешествий</title>
+    <link href="css/normalize.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
   </head>
   <body>
     <header class="mainHeader">
       <div class="container">
         <nav class="mainNavigation">
           <ul>
-            <li><div class="mainLogo"><a href="#"><img src="http://placehold.it/150x100" alt="logo"></a></div></li>
+            <li><div class="mainLogo"><a href="#"><img src="img/logo_small.png" width="111" height="24" alt="logo"></a></div></li>
             <li><a href="#">Информация</a></li>
             <li><a href="#">Новости</a></li>
             <li><a href="#">Прайс-лист</a></li>
@@ -25,13 +27,20 @@
     <main class="container">
       <section class="itemHeader">
         <h1>Набор для путешествий &laquo;Baxter of California&raquo;</h1>
-        <div class="breadcrumbs"><a href="#">Главная</a> <a href="#">Магазин</a> <a href="#">Средства для ухода</a> <a href="#">Набор для путешествий &laquo;Baxter of California&raquo;</a></div>
+        <div class="breadcrumbs">
+          <ul>
+            <li><a href="#">Главная</a></li> 
+            <li><a href="#">Магазин</a></li> 
+            <li><a href="#">Средства для ухода</a></li> 
+            <li class="active"><a href="#">Набор для путешествий &laquo;Baxter of California&raquo;</a></li>
+          </ul>
+        </div>
       </section>
       <section class="itemGallery">
-        <img src="http://placehold.it/150x100" alt="Baxter of California 1">
-        <img src="http://placehold.it/150x100" alt="Baxter of California 2">
-        <img src="http://placehold.it/150x100" alt="Baxter of California 3">
-        <img src="http://placehold.it/150x100" alt="Baxter of California 4">
+        <img src="img/baxter1.png" width="486" height="524" alt="Baxter of California 1">
+        <img src="img/baxter2.png" width="166" height="175" alt="Baxter of California 2">
+        <img src="img/baxter3.png" width="166" height="175" alt="Baxter of California 3">
+        <img src="img/baxter4.png" width="166" height="175" alt="Baxter of California 4">
       </section>
       <section class="itemInf">
         <div class="itemDescription">
@@ -56,10 +65,10 @@
     <footer class="mainFooter">
       <div class="container">
         <section class="footerContacts">
-          Барбершоп «Бородинский»<br>
+          <p>Барбершоп «Бородинский»<br>
           Адрес: г. Санкт-Петербург, Б. Конюшенная, д. 19/8<br>
           <a href="#">Как нас найти?</a><br>
-          Телефон: +7 (812) 666-02-66
+          Телефон: +7 (812) 666-02-66</p>
         </section>
         <section class="footerSocial">
           <span class="socialText">Давайте дружить!</span>
